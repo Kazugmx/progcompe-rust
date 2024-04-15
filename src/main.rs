@@ -1,3 +1,8 @@
+use proconio::*;
 fn main() {
-    println!("Hello, world!");
+    input!{
+        x : i128,
+    }
+    println!("{}",x);
+    println!("{} {}","test","camel")
 }
